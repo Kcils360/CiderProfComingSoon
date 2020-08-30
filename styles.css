@@ -1,0 +1,72 @@
+@font-face {
+    font-family: agencyfb;
+    src: url("./assets/agencyfb-boldcondensed.ttf");
+}
+
+@font-face {
+    font-family: antique-roman;
+    src: url("./assets/RomanAntique.ttf");
+}
+
+html {
+    background-color: #1A1A1A;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url("./assets/hero.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+main {
+    height: 65vh;
+    line-height: 40vh;
+    background-image: linear-gradient(rgba(26,26,26,1), rgba(26,26,26,0));
+    color: #f1c400;
+    font-size: 6em;
+    font-family: agencyfb;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(rgba(26,26,26,0), rgba(26,26,26,1));
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer img {
+    height: 8em;
+}
+
+.logo-main {
+    font-size: 6em;
+    font-family: agencyfb;
+    color: #002B49;
+    margin: 0;
+}
+
+.logo-sub {
+    font-size: 1.75em;
+    font-family: antique-roman;
+    color: #edab00;
+    justify-content: end;
+    margin: 0;
+}
+
+.copy {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
