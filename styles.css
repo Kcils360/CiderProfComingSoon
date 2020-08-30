@@ -1,6 +1,6 @@
 @font-face {
     font-family: agencyfb;
-    src: url("./assets/agencyfb-boldcondensed.ttf");
+    src: url("./assets/agencyfb-black.ttf");
 }
 
 @font-face {
@@ -24,10 +24,10 @@ body {
 
 main {
     height: 65vh;
-    line-height: 40vh;
+    line-height: 13vh;
     background-image: linear-gradient(rgba(26,26,26,1), rgba(26,26,26,0));
     color: #f1c400;
-    font-size: 6em;
+    font-size: 5em;
     font-family: agencyfb;
 }
 
@@ -58,7 +58,7 @@ footer img {
 }
 
 .logo-sub {
-    font-size: 1.75em;
+    font-size: 2.55em;
     font-family: antique-roman;
     color: #edab00;
     justify-content: end;
